@@ -1,90 +1,59 @@
-# Big-Data-Oriented-Exploratory-Data-Analysis-on-Airbnb-Listings
+# 📊 Advanced Data Science Engineering Lab
 
-# 📌 Project Overview
-This project focuses on performing advanced exploratory data analysis (EDA) on a large, real-world Airbnb listings dataset. The goal is to analyze the dataset from a big data perspective by examining volume, variety, data quality, schema behavior, temporal trends, and statistical characteristics.
-The analysis is implemented using efficient Python-based data science techniques suitable for large-scale datasets.
+## 📌 Overview
+This repository contains my **performance and lab tasks completed during the Advanced Data Science Engineering Lab**.  
+Each lab task focuses on applying advanced data science concepts through practical implementation and experimentation.
 
----
-# 📂 Dataset Information
-- **Source:** Kaggle – Airbnb Listings Dataset  
-- **File Used:** airbnb-listings.csv  
-- **Domain:** E-commerce / Marketplace / Geo-temporal Data  
-The dataset contains information about Airbnb listings such as pricing, availability, room types, locations, reviews, and host details.
+The repository consists of multiple files, where each file includes:
+- Problem statement / task description  
+- Code implementation  
+- Outputs, results, and observations  
 
 ---
-## 🛠 Tools & Technologies
+
+## 🎯 Objectives
+- To gain hands-on experience with advanced data science techniques  
+- To understand data preprocessing, analysis, and modeling workflows  
+- To implement and evaluate machine learning models  
+- To develop well-structured and documented data science code  
+
+---
+
+## 🧪 Lab Tasks
+The lab tasks performed in this repository include:
+
+- Data preprocessing and cleaning  
+- Exploratory Data Analysis (EDA)  
+- Feature engineering  
+- Machine learning model development  
+- Model evaluation and performance analysis  
+- Data visualization and interpretation  
+
+Each task is implemented in a **separate file** for clarity and organization.
+
+---
+
+## 🛠️ Technologies Used
 - Python  
-- Pandas & NumPy  
-- Matplotlib & Seaborn  
+- NumPy  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
 - Jupyter Notebook  
 
 ---
 
-## 🔍 Tasks Performed
-
-### 1. Data Volume Analysis
-- Measured number of records and attributes
-- Estimated memory usage
-- Analyzed data growth over time using timestamps
-
-### 2. Data Variety Analysis
-- Identified structured and semi-structured data
-- Examined text-based and complex attributes
-
-### 3. Data Quality Assessment
-- Detected duplicate records
-- Identified inconsistent formats and invalid values
-- Performed basic data cleaning
-
-### 4. Schema & Schema Drift Analysis
-- Inspected dataset schema
-- Analyzed missing or changing fields over time
-
-### 5. Missing Value Analysis
-- Computed missing value counts and percentages
-- Identified attributes with high missingness
-
-### 6. Statistical Summary & Distribution Analysis
-- Generated summary statistics
-- Analyzed numerical and categorical distributions
-
-### 7. Outlier Detection
-- Detected outliers using the IQR method
-- Visualized extreme values using box plots
-
-### 8. Skewness & Class Imbalance Analysis
-- Identified skewed numerical features
-- Analyzed imbalance in categorical attributes
-
-### 9. Temporal & Trend Analysis
-- Performed monthly time-based aggregation
-- Identified trends and seasonal patterns
-
-### 10. Sampling & Approximate EDA
-- Applied random sampling for efficiency
-- Compared sampled statistics with full dataset metrics
+## 📈 Learning Outcomes
+- Practical understanding of data science pipelines  
+- Experience in building and evaluating machine learning models  
+- Improved data analysis and visualization skills  
+- Better code organization and documentation practices  
 
 ---
 
-## 📊 Visualizations Included
-- Price distribution and log-transformed distribution
-- Room type vs price comparison
-- Correlation heatmap
-- Temporal trend plots
-- Neighborhood-level distribution analysis
-
----
-
-## 🎯 Key Learnings
-- Practical application of big data EDA concepts
-- Handling large real-world datasets efficiently
-- Understanding data behavior before modeling
-- Importance of data quality and schema analysis
-
----
-
-## 🚀 Future Enhancements
-- Feature engineering for machine learning
-- Price prediction using regression models
-- Recommendation system based on location and price
-- Migration to PySpark for large-scale processing
+## 🚀 How to Run
+1. Clone the repository: git clone https://github.com/krishna052005/Advanced-Data-Science-engineering.git
+2. Navigate to the project directory
+3. Open the `.ipynb` files using **Jupyter Notebook** or **VS Code**
+4. Run the cells sequentially to view outputs
